@@ -26,19 +26,19 @@
         <nav class="nav">
           <ul class="nav__list" role="list">
             <li class="nav__list-item">
-              <a href="#" class="nav__list-link">Home</a>
+              <a href="/" class="nav__list-link">Home</a>
             </li>
             <li class="nav__list-item">
               <a href="#services" class="nav__list-link">Services</a>
             </li>
             <li class="nav__list-item">
-              <a href="#" class="nav__list-link">Our Works</a>
+              <a href="#works" class="nav__list-link">Our Works</a>
             </li>
             <li class="nav__list-item">
-              <a href="#" class="nav__list-link">Clients</a>
+              <a href="#clients" class="nav__list-link">Clients</a>
             </li>
             <li class="nav__list-item">
-              <a href="#" class="nav__list-link">Contact</a>
+              <a href="#contacts" class="nav__list-link">Contact</a>
             </li>
           </ul>
           <button aria-expanded="false" class="hamburger-menu"></button>
@@ -95,7 +95,7 @@
           </form>
         </div>
       </section>
-      <section class="services | container margin-top" id="services">
+      <section id="services" class="services | container margin-top">
         <div
           class="container"
           style="--max-width: 1110px; --container-padding: 40px"
@@ -146,7 +146,7 @@
         </div>
       </section>
 
-      <section class="works | margin-top">
+      <section id="works" class="works | margin-top">
         <div
           class="container"
           style="--max-width: 1110px; --container-padding: 40px"
@@ -210,6 +210,7 @@
       <section
         class="clients | margin-top container"
         style="--max-width: 1110px; --container-padding: 10px"
+        id="clients"
       >
         <div class="clients__content">
           <div class="clients__description | flow">
@@ -250,7 +251,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer | margin-top">
+    <footer class="footer | margin-top" id="contacts">
       <div
         class="container"
         style="--max-width: 1110px; --container-padding: 40px"
@@ -356,8 +357,14 @@
           </div>
         </div>
         <p class="footer__info | margin-top">
-          created by <a href="https://github.com/WEBABDU" class="footer__link" target="_blank">WEBABDU</a> -
-          devChallenges.io
+          created by
+          <a
+            href="https://github.com/WEBABDU"
+            class="footer__link"
+            target="_blank"
+            >WEBABDU</a
+          >
+          - devChallenges.io
         </p>
       </div>
     </footer>
